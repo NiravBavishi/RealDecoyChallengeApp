@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1001,
+    "name": "Cappuccino",
+    "imageName": "Cappuccino",
+    "description": "Now a cappuccino, though very similar, consists of more foam than just steamed milk. This makes it physically lighter, and makes the taste of the espresso a bit stronger. So when you're ordering an iced latte, you want that same espresso and milk, just not steamed",
+    "category": "hot"
+  },
+  {
+    "id": 1002,
+    "name": "Espresso",
+    "imageName": "Espresso",
+    "description": "Now a cappuccino, though very similar, consists of more foam than just steamed milk. This makes it physically lighter, and makes the taste of the espresso a bit stronger. So when you're ordering an iced latte, you want that same espresso and milk, just not steamed",
+    "category": "hot"
+  },
+  {
+    "id": 1003,
+    "name": "Latte",
+    "imageName": "latte",
+    "description": "Now a cappuccino, though very similar, consists of more foam than just steamed milk. This makes it physically lighter, and makes the taste of the espresso a bit stronger. So when you're ordering an iced latte, you want that same espresso and milk, just not steamed",
+    "category": "hot"
+  },
+
+  {
+    "id": 1004,
+    "name": "Ice Cappuccino",
+    "imageName": "iceCappuccino",
+    "description": "Now a cappuccino, though very similar, consists of more foam than just steamed milk. This makes it physically lighter, and makes the taste of the espresso a bit stronger. So when you're ordering an iced latte, you want that same espresso and milk, just not steamed",
+    "category": "cold"
+  },
+  {
+    "id": 1005,
+    "name": "Coffee",
+    "imageName": "Coffee",
+    "description": "Now a cappuccino, though very similar, consists of more foam than just steamed milk. This makes it physically lighter, and makes the taste of the espresso a bit stronger. So when you're ordering an iced latte, you want that same espresso and milk, just not steamed",
+    "category": "cold"
+  },
+
+  {
+    "id": 1006,
+    "name": "Brew",
+    "imageName": "Brew",
+    "description": "Now a cappuccino, though very similar, consists of more foam than just steamed milk. This makes it physically lighter, and makes the taste of the espresso a bit stronger. So when you're ordering an iced latte, you want that same espresso and milk, just not steamed",
+    "category": "cold"
+  }
+]
