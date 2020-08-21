@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E123D0A924EF3C5F00DB1827 /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = E123D0A824EF3C5F00DB1827 /* drinks.json */; };
+		E123D0AB24EF3CAC00DB1827 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123D0AA24EF3CAC00DB1827 /* Data.swift */; };
+		E123D0AD24EF3F3400DB1827 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123D0AC24EF3F3400DB1827 /* Drink.swift */; };
+		E123D0AF24EF40C800DB1827 /* DrinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123D0AE24EF40C800DB1827 /* DrinkItem.swift */; };
+		E123D0B124EF446F00DB1827 /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123D0B024EF446F00DB1827 /* DrinkRow.swift */; };
+		E123D0B324EF5AFC00DB1827 /* DrinkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123D0B224EF5AFC00DB1827 /* DrinkDetail.swift */; };
 		E1325DEE24EEF12800952B4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1325DED24EEF12800952B4C /* AppDelegate.swift */; };
 		E1325DF024EEF12800952B4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1325DEF24EEF12800952B4C /* SceneDelegate.swift */; };
 		E1325DF224EEF12800952B4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1325DF124EEF12800952B4C /* ContentView.swift */; };
 		E1325DF424EEF12800952B4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1325DF324EEF12800952B4C /* Assets.xcassets */; };
 		E1325DF724EEF12800952B4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1325DF624EEF12800952B4C /* Preview Assets.xcassets */; };
 		E1325DFA24EEF12800952B4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1325DF824EEF12800952B4C /* LaunchScreen.storyboard */; };
+		E1325E0224EEF88900952B4C /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1325E0124EEF88900952B4C /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E123D0A824EF3C5F00DB1827 /* drinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drinks.json; sourceTree = "<group>"; };
+		E123D0AA24EF3CAC00DB1827 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		E123D0AC24EF3F3400DB1827 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		E123D0AE24EF40C800DB1827 /* DrinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItem.swift; sourceTree = "<group>"; };
+		E123D0B024EF446F00DB1827 /* DrinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRow.swift; sourceTree = "<group>"; };
+		E123D0B224EF5AFC00DB1827 /* DrinkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetail.swift; sourceTree = "<group>"; };
 		E1325DEA24EEF12800952B4C /* RealDecoyChallengeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealDecoyChallengeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1325DED24EEF12800952B4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1325DEF24EEF12800952B4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,7 @@
 		E1325DF624EEF12800952B4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E1325DF924EEF12800952B4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1325DFB24EEF12800952B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1325E0124EEF88900952B4C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,7 @@
 		E1325DE124EEF12700952B4C = {
 			isa = PBXGroup;
 			children = (
+				E1325E0124EEF88900952B4C /* SwiftUIView.swift */,
 				E1325DEC24EEF12800952B4C /* RealDecoyChallengeApp */,
 				E1325DEB24EEF12800952B4C /* Products */,
 			);
@@ -59,9 +74,15 @@
 				E1325DED24EEF12800952B4C /* AppDelegate.swift */,
 				E1325DEF24EEF12800952B4C /* SceneDelegate.swift */,
 				E1325DF124EEF12800952B4C /* ContentView.swift */,
+				E123D0B224EF5AFC00DB1827 /* DrinkDetail.swift */,
+				E123D0AA24EF3CAC00DB1827 /* Data.swift */,
+				E123D0AC24EF3F3400DB1827 /* Drink.swift */,
+				E123D0AE24EF40C800DB1827 /* DrinkItem.swift */,
+				E123D0B024EF446F00DB1827 /* DrinkRow.swift */,
 				E1325DF324EEF12800952B4C /* Assets.xcassets */,
 				E1325DF824EEF12800952B4C /* LaunchScreen.storyboard */,
 				E1325DFB24EEF12800952B4C /* Info.plist */,
+				E123D0A824EF3C5F00DB1827 /* drinks.json */,
 				E1325DF524EEF12800952B4C /* Preview Content */,
 			);
 			path = RealDecoyChallengeApp;
@@ -135,6 +156,7 @@
 			files = (
 				E1325DFA24EEF12800952B4C /* LaunchScreen.storyboard in Resources */,
 				E1325DF724EEF12800952B4C /* Preview Assets.xcassets in Resources */,
+				E123D0A924EF3C5F00DB1827 /* drinks.json in Resources */,
 				E1325DF424EEF12800952B4C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,7 +169,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1325DEE24EEF12800952B4C /* AppDelegate.swift in Sources */,
+				E123D0B124EF446F00DB1827 /* DrinkRow.swift in Sources */,
+				E123D0AB24EF3CAC00DB1827 /* Data.swift in Sources */,
 				E1325DF024EEF12800952B4C /* SceneDelegate.swift in Sources */,
+				E123D0AF24EF40C800DB1827 /* DrinkItem.swift in Sources */,
+				E123D0B324EF5AFC00DB1827 /* DrinkDetail.swift in Sources */,
+				E1325E0224EEF88900952B4C /* SwiftUIView.swift in Sources */,
+				E123D0AD24EF3F3400DB1827 /* Drink.swift in Sources */,
 				E1325DF224EEF12800952B4C /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
