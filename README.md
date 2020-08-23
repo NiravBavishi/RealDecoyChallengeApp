@@ -1,7 +1,7 @@
 # RealDecoyChallengeApp
 
 
-Markup : * Applicaiton Features
+           * Applicaiton Features
             * Demonstrated SwiftUI
             * Data imported from local JSON file
             * Implemented Card, Navigation View and scroll View
